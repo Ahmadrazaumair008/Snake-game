@@ -2,9 +2,6 @@
 
 A classic Snake game implemented using the Pygame library in Python.
 
-![Game Screenshot](assets/images/screenshot.png)
-![Gameplay GIF](assets/images/gameplay.gif)
-
 ## Description
 
 This repository contains the source code for a simple and engaging Snake game built with Pygame. Players control a snake, navigating it to eat food and grow longer while avoiding collisions with the walls and its own body. The game features a welcome screen with background music, in-game music to enhance the experience, score tracking with a persistent high score, and a distinct game over screen with a sound effect.
@@ -97,3 +94,19 @@ This repository contains the source code for a simple and engaging Snake game bu
 * **Pygame:** A free and open-source cross-platform library for the creation of multimedia applications like video games.
 
 ## File Structure
+
+pygame-snake-game/
+├── snake_game.py         # The main Python script for the game
+├── hiscore.txt           # File to store the high score
+├── assets/
+│   ├── images/
+│   │   ├── bg.jpg        # Background image
+│   │   ├── INTRO.png     # Intro screen image
+│   │   └── GAMEOVER.png  # Game over screen image
+│   └── audio/
+│       ├── bgm.mp3       # Welcome screen music
+│       ├── bgm1.mp3      # In-game music
+│       └── end.mp3       # Game over sound effect
+└── README.md             # Project documentation
+└── LICENSE               # MIT License
+└── .gitignore            # Specifies intentionally untracked files that Git should ignore
